@@ -81,6 +81,11 @@ ans: a. And created manifest files for nginx app and deployed it on eks cluster.
    ![image](https://github.com/user-attachments/assets/fb4a7296-09a1-4724-9997-4344b122fbe1)
 
 
+
+
+                                                                          Thank You!!
+
+
      
 
 
