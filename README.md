@@ -46,12 +46,15 @@ ans: Created VPC in Singapore region with CIDR Block 192.0.0.0/16 and added Two 
  # 4. Create a target group association with the EKS cluster and configure an ALB
  ans:Created IAM roles and policies for the AWSLoadBalancerController and deployed it on EKS cluster.
      below is the application loadbalancer snapshot.
-     ![image](https://github.com/user-attachments/assets/d262eb04-383e-41cf-9821-9bcd4a8d7116)
+     
 
  # 5. The ALB needs to route traffic from the internet to the EKS cluster running the POD and then return a response either via Postman or the browser.
     ans: Deployed nginx-app on eks cluster and created ingress manifest file for the same.
          I'm able to get response from the browser for the nginx app below is the snapshot.
-         ![image](https://github.com/user-attachments/assets/fb4a7296-09a1-4724-9997-4344b122fbe1)
+
+
+      ![image](https://github.com/user-attachments/assets/d262eb04-383e-41cf-9821-9bcd4a8d7116)
+       ![image](https://github.com/user-attachments/assets/fb4a7296-09a1-4724-9997-4344b122fbe1)
 
 
      
