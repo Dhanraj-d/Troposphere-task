@@ -1,10 +1,13 @@
 # Troposphere Assignment
 
 1. VPC Creation
+   
 a. Create a VPC in any availability zone with two public subnets and two private
 subnets.
+
 b. The public subnet needs to have a IGW attached
 c. The private subnet needs to have a NAT Gateway attached
+
 2. Take the following ReactJS application and dockerize the same.
 a. https://github.com/AhmedM1011/task.git
 b. Update the Docker image to ECR
