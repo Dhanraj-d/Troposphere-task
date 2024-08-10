@@ -17,6 +17,7 @@ and then return a response either via Postman or the browser.
 # OVERVIEW:
 
 I have used Singapore Region for this assignment and have deployed everything on this region itself and for the reference I have attached all the sanpshots of all the resources.
+
 I have also forked the mentioned repo (https://github.com/AhmedM1011/task.git) for reactapp and added dockerfile in that and also created a kubernetes manifest file for the nginx app.
 
 # 1. VPC Creation
@@ -24,6 +25,7 @@ ans: Created a VPC in the Singapore region with CIDR Block 192.0.0.0/16 and adde
 below are the snapshots for it.
 
  ![image](https://github.com/user-attachments/assets/a214e3fd-4ccb-477a-b09b-cff407a28a80)
+ 
  ![image](https://github.com/user-attachments/assets/70431bc4-0b5e-4756-a688-ad1f7dae655d)
 
 
@@ -61,12 +63,12 @@ ans: a. And created manifest files for nginx app and deployed it on eks cluster.
 
  # 4. Create a target group association with the EKS cluster and configure an ALB
  ans: Created IAM roles and policies for the AWSLoadBalancerController and deployed it on EKS cluster.
-     There's no need to create target group manually, policies will take care of it.
+     There's no need to create target group manually, because policies will take care of it.
      
     
  # 5. The ALB needs to route traffic from the internet to the EKS cluster running the POD and then return a response either via Postman or the browser.
-  ans: Deployed nginx-app on eks cluster and created ingress manifest file for the same.
-         I'm able to get response from the browser for the nginx app, below are the snapshots.
+  ans: Deployed nginx-app on eks cluster and created ingress manifest file to manage external access to the service.
+         I'm also able to get the response from the browser for the nginx app, below are the snapshots.
 
 
    ![image](https://github.com/user-attachments/assets/d262eb04-383e-41cf-9821-9bcd4a8d7116)
