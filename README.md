@@ -24,7 +24,7 @@ I have also forked the mentioned repo (https://github.com/AhmedM1011/task.git) f
     a. Create a VPC in any availability zone with two public subnets and two private subnets.
     b. The public subnet needs to have a IGW attached
     c. The private subnet needs to have a NAT Gateway attached
-ans: Created a VPC in the Singapore region with CIDR Block 192.0.0.0/16 and added two public subnets and two private subnets.
+ans: Created a VPC in the Singapore region with CIDR Block 192.0.0.0/16 and added two public subnets and two private subnets in two availability zones ap-southeast-1a and ap-southeast-1b.
 below are the snapshots for it.
 
  ![image](https://github.com/user-attachments/assets/fcb3c157-684e-4ef0-88ca-7771b5e1f186)
