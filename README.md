@@ -20,3 +20,17 @@ ans: Created VPC in Singapore region with CIDR Block 192.0.0.0/16 and added Two 
  ![image](https://github.com/user-attachments/assets/70431bc4-0b5e-4756-a688-ad1f7dae655d)
 
 
+ And Attached IGW to public subnet below is the snapshot
+ ![image](https://github.com/user-attachments/assets/4d823402-2437-410b-876d-b2cb8db7abed)
+
+ And NAT gateway for private subnet
+ ![image](https://github.com/user-attachments/assets/8f786768-5697-43c1-82f6-49ec26fc36d5)
+
+# 2. Take the following ReactJS application and dockerize the same.
+     a. https://github.com/AhmedM1011/task.git
+     b. Update the Docker image to ECR
+ ans: Added the docker file for building the docker image and I have clone the code and build the docker image on EC2 inatnce then pushed the docker image to ECR repository.
+
+
+
+
