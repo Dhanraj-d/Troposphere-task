@@ -24,19 +24,24 @@ I have used Singapore Region for this assignment and have deployed everything on
 I have also forked the mentioned repo (https://github.com/AhmedM1011/task.git) for reactapp and added dockerfile in that and also created a kubernetes manifest file for the nginx app.
 
 # 1. VPC Creation
+    a. Create a VPC in any availability zone with two public subnets and two private subnets.
+    b. The public subnet needs to have a IGW attached
+    c. The private subnet needs to have a NAT Gateway attached
 ans: Created a VPC in the Singapore region with CIDR Block 192.0.0.0/16 and added two public subnets and two private subnets.
 below are the snapshots for it.
 
- ![image](https://github.com/user-attachments/assets/a214e3fd-4ccb-477a-b09b-cff407a28a80)
+ ![image](https://github.com/user-attachments/assets/fcb3c157-684e-4ef0-88ca-7771b5e1f186)
+
  
- ![image](https://github.com/user-attachments/assets/70431bc4-0b5e-4756-a688-ad1f7dae655d)
+ ![image](https://github.com/user-attachments/assets/0b37843b-3f16-419f-8497-f7e544a31abf)
 
 
-and attached IGW to the public subnet.
+
+and attached IGW to the public subnets.
 
  ![image](https://github.com/user-attachments/assets/4d823402-2437-410b-876d-b2cb8db7abed)
 
-and attached NAT gateway for private subnet.
+and attached NAT gateway for private subnets.
 
  ![image](https://github.com/user-attachments/assets/8f786768-5697-43c1-82f6-49ec26fc36d5)
 
@@ -56,7 +61,7 @@ Created the ECR repo, then Pushed docker image to ECR repository.
 
 # 3. Create a EKS cluster with the group-nodes sitting only in the private subnet.
      a. It is ok to run 1 pod for the purposes of this demo.
-ans: Created an EKS cluster with node groups which are sitting only in the private subnets.
+ans: Created an EKS cluster through AWSCLI and added node groups which are sitting only in the private subnets.
 
  ![image](https://github.com/user-attachments/assets/f70db5f2-ef61-4d80-a7a9-e354f3120857)
  
