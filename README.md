@@ -58,7 +58,7 @@ Created the ECR repo, then Pushed docker image to ECR repository.
 
 # 3. Create a EKS cluster with the group-nodes sitting only in the private subnet.
      a. It is ok to run 1 pod for the purposes of this demo.
-ans: Created an EKS cluster through AWSCLI and added node groups which are sitting only in the private subnets.
+ans: Created an EKS cluster through AWSCLI and added node the groups which are sitting only in the private subnets.
 
  ![image](https://github.com/user-attachments/assets/f70db5f2-ef61-4d80-a7a9-e354f3120857)
  
