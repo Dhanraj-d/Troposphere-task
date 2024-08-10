@@ -83,7 +83,7 @@ ans: a. And created manifest files for nginx app and deployed it on eks cluster.
 
 
 
-                                                                  Thank You!!
+                                                             Thank You!!
 
 
      
