@@ -14,9 +14,10 @@ a. It is ok to run 1 pod for the purposes of this demo.
 5. The ALB needs to route traffic from the internet to the EKS cluster running the POD
 and then return a response either via Postman or the browser.
 
-OVERVIEW:
-# I have used Singapore Region for this assignment and have deployed everything on this region itself and for the reference I have attached all the sanpshots of all the resources.
-# I have also forked the mentioned repo (https://github.com/AhmedM1011/task.git) for reactapp and added dockerfile in that and also created a kubernetes manifest file for the nginx app.
+# OVERVIEW:
+
+I have used Singapore Region for this assignment and have deployed everything on this region itself and for the reference I have attached all the sanpshots of all the resources.
+I have also forked the mentioned repo (https://github.com/AhmedM1011/task.git) for reactapp and added dockerfile in that and also created a kubernetes manifest file for the nginx app.
 
 # 1. VPC Creation
 ans: Created a VPC in the Singapore region with CIDR Block 192.0.0.0/16 and added two public subnets and two private subnets.
