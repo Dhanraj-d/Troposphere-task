@@ -29,7 +29,13 @@ ans: Created VPC in Singapore region with CIDR Block 192.0.0.0/16 and added Two 
 # 2. Take the following ReactJS application and dockerize the same.
      a. https://github.com/AhmedM1011/task.git
      b. Update the Docker image to ECR
- ans: Added the docker file for building the docker image and I have clone the code and build the docker image on EC2 inatnce then pushed the docker image to ECR repository.
+ ans: Added the docker file for building the docker image and I have clone the code and build the docker image on EC2 instance then exposed react app on port 8091 below is the browser snapshot pushed the docker image to ECR repository.
+ ![image](https://github.com/user-attachments/assets/f81ddd3a-64f0-42cc-9c99-ab360e23b0d1)
+
+ Then Pushed docker image to ECR repository
+ ![image](https://github.com/user-attachments/assets/b5c5e0b2-f028-4fcf-bb88-3b7651fb4072)
+
+
 
 
 
