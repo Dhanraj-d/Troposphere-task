@@ -18,7 +18,7 @@
 
 I have used Singapore Region for this assignment and have deployed everything on this region itself and for the reference I have attached all the sanpshots of all the resources.
 
-I have also forked the mentioned repo (https://github.com/AhmedM1011/task.git) for reactapp and added dockerfile in that and also created a kubernetes manifest file for the nginx app.
+I have also forked the mentioned repo (https://github.com/AhmedM1011/task.git) for React-app and added Dockerfile in that and also created a kubernetes manifest file for the nginx app.
 
 # 1. VPC Creation
     a. Create a VPC in any availability zone with two public subnets and two private subnets.
