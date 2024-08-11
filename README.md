@@ -52,7 +52,7 @@ below is the browser snapshot
 
  ![image](https://github.com/user-attachments/assets/f81ddd3a-64f0-42cc-9c99-ab360e23b0d1)
 
-Created the ECR repo, then Pushed docker image to ECR repository.
+Created the ECR repo, then Pushed the docker image to ECR repository.
 
  ![image](https://github.com/user-attachments/assets/b5c5e0b2-f028-4fcf-bb88-3b7651fb4072)
 
